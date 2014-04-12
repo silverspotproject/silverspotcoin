@@ -32,7 +32,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0xb0b53c5a2c64bcd2a621edd887653ddc0ba76ce047ee648cb6429c737a978a72");
+uint256 hashGenesisBlock("0x6b607422155e23fabcfb438430c3d39c612015b10a3901024a0d84d083d67e96");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Silverspotcoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -2857,7 +2857,7 @@ bool InitBlockIndex() {
         block.nVersion = 1;
         block.nTime    = 1397291706;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 2085271509;
+        block.nNonce   = 2087140393;
 
         if (fTestNet)
         {
@@ -2870,10 +2870,55 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0x9d8f1dbd298ac8604c8ad11909d4d4060d947613615a04d7dccb3cc3569333e1"));
+        assert(block.hashMerkleRoot == uint256("0x3f17240c1ed3d2607f15a82097aa797e180989f0409e136c554bb8a5920488ea"));
+                      // If genesis block hash does not match, then generate new genesis hash.
+
+                if (false && block.GetHash() != hashGenesisBlock)
+                {
+                    printf("Searching for genesis block...\n");
+                    // This will figure out a valid hash and Nonce if you're
+                    // creating a different genesis block:
+                    uint256 hashTarget = CBigNum().SetCompact(block.nBits).getuint256();
+                    uint256 thash;
+                    char scratchpad[SCRYPT_SCRATCHPAD_SIZE];
+
+                    loop
+                    {
+        #if defined(USE_SSE2)
+                        // Detection would work, but in cases where we KNOW it always has SSE2,
+                        // it is faster to use directly than to use a function pointer or conditional.
+        #if defined(_M_X64) || defined(__x86_64__) || defined(_M_AMD64) || (defined(MAC_OSX) && defined(__i386__))
+                        // Always SSE2: x86_64 or Intel MacOS X
+                        scrypt_1024_1_1_256_sp_sse2(BEGIN(block.nVersion), BEGIN(thash), scratchpad);
+        #else
+                        // Detect SSE2: 32bit x86 Linux or Windows
+                        scrypt_1024_1_1_256_sp(BEGIN(block.nVersion), BEGIN(thash), scratchpad);
+        #endif
+        #else
+                        // Generic scrypt
+                        scrypt_1024_1_1_256_sp_generic(BEGIN(block.nVersion), BEGIN(thash), scratchpad);
+        #endif
+                        if (thash <= hashTarget)
+                            break;
+                        if ((block.nNonce & 0xFFF) == 0)
+                        {
+                            printf("nonce %08X: hash = %s (target = %s)\n", block.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
+                        }
+                        ++block.nNonce;
+                        if (block.nNonce == 0)
+                        {
+                            printf("NONCE WRAPPED, incrementing time\n");
+                            ++block.nTime;
+                        }
+                    }
+                    printf("block.nTime = %u \n", block.nTime);
+                    printf("block.nNonce = %u \n", block.nNonce);
+                    printf("block.GetHash = %s\n", block.GetHash().ToString().c_str());
+                }
+
+
         block.print();
         assert(hash == hashGenesisBlock);
-
         // Start new block file
         try {
             unsigned int nBlockSize = ::GetSerializeSize(block, SER_DISK, CLIENT_VERSION);
@@ -2892,6 +2937,7 @@ bool InitBlockIndex() {
 
     return true;
 }
+
 
 
 
