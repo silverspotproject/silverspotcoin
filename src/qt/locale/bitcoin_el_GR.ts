@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Klondikecoin</source>
-        <translation>Σχετικά με το Klondikecoin</translation>
+        <source>About Silverspotcoin</source>
+        <translation>Σχετικά με το Silverspotcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Klondikecoin&lt;/b&gt; version</source>
-        <translation>Έκδοση Klondikecoin</translation>
+        <source>&lt;b&gt;Silverspotcoin&lt;/b&gt; version</source>
+        <translation>Έκδοση Silverspotcoin</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The Klondikecoin developers</source>
-        <translation>Οι Klondikecoin προγραμματιστές </translation>
+        <source>The Silverspotcoin developers</source>
+        <translation>Οι Silverspotcoin προγραμματιστές </translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Klondikecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Αυτές είναι οι Klondikecoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
+        <source>These are your Silverspotcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Αυτές είναι οι Silverspotcoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Klondikecoin address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση Klondikecoin</translation>
+        <source>Sign a message to prove you own a Silverspotcoin address</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση Silverspotcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Klondikecoin address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση Klondikecoin</translation>
+        <source>Verify a message to ensure it was signed with a specified Silverspotcoin address</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση Silverspotcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Klondikecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Αυτές είναι οι Klondikecoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
+        <source>These are your Silverspotcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Αυτές είναι οι Silverspotcoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -276,8 +276,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Klondikecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your klondikecoins from being stolen by malware infecting your computer.</source>
-        <translation>Το Klondikecoin θα κλεισει τώρα για να τελειώσει την διαδικασία κρυπτογραφησης. Θυμησου ότι κρυπτογραφώντας το πορτοφολι σου δεν μπορείς να προστατέψεις πλήρως τα klondikecoins σου από κλοπή στην περίπτωση όπου μολυνθεί ο υπολογιστής σου με κακόβουλο λογισμικο.</translation>
+        <source>Silverspotcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your silverspotcoins from being stolen by malware infecting your computer.</source>
+        <translation>Το Silverspotcoin θα κλεισει τώρα για να τελειώσει την διαδικασία κρυπτογραφησης. Θυμησου ότι κρυπτογραφώντας το πορτοφολι σου δεν μπορείς να προστατέψεις πλήρως τα silverspotcoins σου από κλοπή στην περίπτωση όπου μολυνθεί ο υπολογιστής σου με κακόβουλο λογισμικο.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -375,8 +375,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Klondikecoin</source>
-        <translation>Εμφάνισε πληροφορίες σχετικά με το Klondikecoin</translation>
+        <source>Show information about Silverspotcoin</source>
+        <translation>Εμφάνισε πληροφορίες σχετικά με το Silverspotcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -420,13 +420,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Klondikecoin address</source>
-        <translation>Στείλε νομισματα σε μια διεύθυνση klondikecoin</translation>
+        <source>Send coins to a Silverspotcoin address</source>
+        <translation>Στείλε νομισματα σε μια διεύθυνση silverspotcoin</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Klondikecoin</source>
-        <translation>Επεργασία  ρυθμισεων επιλογών για το Klondikecoin</translation>
+        <source>Modify configuration options for Silverspotcoin</source>
+        <translation>Επεργασία  ρυθμισεων επιλογών για το Silverspotcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -456,8 +456,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Klondikecoin</source>
-        <translation>Klondikecoin</translation>
+        <source>Silverspotcoin</source>
+        <translation>Silverspotcoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -481,8 +481,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Klondikecoin</source>
-        <translation>&amp;Σχετικα:Klondikecoin</translation>
+        <source>&amp;About Silverspotcoin</source>
+        <translation>&amp;Σχετικα:Silverspotcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -501,13 +501,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Klondikecoin addresses to prove you own them</source>
+        <source>Sign messages with your Silverspotcoin addresses to prove you own them</source>
         <translation>Υπογράψτε ένα μήνυμα για να βεβαιώσετε πως είστε ο κάτοχος αυτής της διεύθυνσης</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Klondikecoin addresses</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση Klondikecoin</translation>
+        <source>Verify messages to ensure they were signed with specified Silverspotcoin addresses</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση Silverspotcoin</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -537,13 +537,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>Klondikecoin client</source>
-        <translation>Πελάτης Klondikecoin</translation>
+        <source>Silverspotcoin client</source>
+        <translation>Πελάτης Silverspotcoin</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Klondikecoin network</source>
-        <translation><numerusform>%n ενεργή σύνδεση στο δίκτυο Klondikecoin</numerusform><numerusform>%n ενεργές συνδέσεις στο δίκτυο Βitcoin</numerusform></translation>
+        <source>%n active connection(s) to Silverspotcoin network</source>
+        <translation><numerusform>%n ενεργή σύνδεση στο δίκτυο Silverspotcoin</numerusform><numerusform>%n ενεργές συνδέσεις στο δίκτυο Βitcoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -659,8 +659,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Klondikecoin address or malformed URI parameters.</source>
-        <translation>Το URI δεν μπορεί να αναλυθεί! Αυτό μπορεί να προκληθεί από μια μη έγκυρη διεύθυνση Klondikecoin ή ακατάλληλη παραμέτρο URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Silverspotcoin address or malformed URI parameters.</source>
+        <translation>Το URI δεν μπορεί να αναλυθεί! Αυτό μπορεί να προκληθεί από μια μη έγκυρη διεύθυνση Silverspotcoin ή ακατάλληλη παραμέτρο URI.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -674,8 +674,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Klondikecoin can no longer continue safely and will quit.</source>
-        <translation>Παρουσιάστηκε ανεπανόρθωτο σφάλμα. Το Klondikecoin δεν μπορεί πλέον να συνεχίσει με ασφάλεια και θα τερματισθει.</translation>
+        <source>A fatal error occurred. Silverspotcoin can no longer continue safely and will quit.</source>
+        <translation>Παρουσιάστηκε ανεπανόρθωτο σφάλμα. Το Silverspotcoin δεν μπορεί πλέον να συνεχίσει με ασφάλεια και θα τερματισθει.</translation>
     </message>
 </context>
 <context>
@@ -740,8 +740,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Klondikecoin address.</source>
-        <translation>Η διεύθυνση &quot;%1&quot; δεν είναι έγκυρη Klondikecoin διεύθυνση.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Silverspotcoin address.</source>
+        <translation>Η διεύθυνση &quot;%1&quot; δεν είναι έγκυρη Silverspotcoin διεύθυνση.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -759,8 +759,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Klondikecoin-Qt</source>
-        <translation>klondikecoin-qt</translation>
+        <source>Silverspotcoin-Qt</source>
+        <translation>silverspotcoin-qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -822,12 +822,12 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Klondikecoin after logging in to the system.</source>
-        <translation>Αυτόματη εκκίνηση του Klondikecoin μετά την εισαγωγή στο σύστημα</translation>
+        <source>Automatically start Silverspotcoin after logging in to the system.</source>
+        <translation>Αυτόματη εκκίνηση του Silverspotcoin μετά την εισαγωγή στο σύστημα</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Klondikecoin on system login</source>
+        <source>&amp;Start Silverspotcoin on system login</source>
         <translation>&amp;Έναρξη του Βιtcoin κατά την εκκίνηση του συστήματος</translation>
     </message>
     <message>
@@ -847,8 +847,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Klondikecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Αυτόματο άνοιγμα των θυρών Klondikecoin στον δρομολογητή. Λειτουργεί μόνο αν ο δρομολογητής σας υποστηρίζει τη λειτουργία UPnP.</translation>
+        <source>Automatically open the Silverspotcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Αυτόματο άνοιγμα των θυρών Silverspotcoin στον δρομολογητή. Λειτουργεί μόνο αν ο δρομολογητής σας υποστηρίζει τη λειτουργία UPnP.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -857,8 +857,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Klondikecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Σύνδεση στο Klondikecoin δίκτυο μέσω διαμεσολαβητή SOCKS4 (π.χ. για σύνδεση μέσω Tor)</translation>
+        <source>Connect to the Silverspotcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Σύνδεση στο Silverspotcoin δίκτυο μέσω διαμεσολαβητή SOCKS4 (π.χ. για σύνδεση μέσω Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -932,8 +932,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Klondikecoin.</source>
-        <translation>Εδώ μπορεί να ρυθμιστεί η γλώσσα διεπαφής χρήστη. Αυτή η ρύθμιση θα ισχύσει μετά την επανεκκίνηση του Klondikecoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Silverspotcoin.</source>
+        <translation>Εδώ μπορεί να ρυθμιστεί η γλώσσα διεπαφής χρήστη. Αυτή η ρύθμιση θα ισχύσει μετά την επανεκκίνηση του Silverspotcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -947,8 +947,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Klondikecoin addresses in the transaction list or not.</source>
-        <translation>Επιλέξτε αν θέλετε να εμφανίζονται οι διευθύνσεις Klondikecoin στη λίστα συναλλαγών.</translation>
+        <source>Whether to show Silverspotcoin addresses in the transaction list or not.</source>
+        <translation>Επιλέξτε αν θέλετε να εμφανίζονται οι διευθύνσεις Silverspotcoin στη λίστα συναλλαγών.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -999,8 +999,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Klondikecoin.</source>
-        <translation>Αυτή η ρύθμιση θα ισχύσει μετά την επανεκκίνηση του Klondikecoin.</translation>
+        <source>This setting will take effect after restarting Silverspotcoin.</source>
+        <translation>Αυτή η ρύθμιση θα ισχύσει μετά την επανεκκίνηση του Silverspotcoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1018,8 +1018,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Klondikecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Οι πληροφορίες που εμφανίζονται μπορεί να είναι ξεπερασμένες. Το πορτοφόλι σας συγχρονίζεται αυτόματα με το δίκτυο Klondikecoin μετά από μια σύνδεση, αλλά αυτή η διαδικασία δεν έχει ακόμη ολοκληρωθεί. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Silverspotcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Οι πληροφορίες που εμφανίζονται μπορεί να είναι ξεπερασμένες. Το πορτοφόλι σας συγχρονίζεται αυτόματα με το δίκτυο Silverspotcoin μετά από μια σύνδεση, αλλά αυτή η διαδικασία δεν έχει ακόμη ολοκληρωθεί. </translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1072,8 +1072,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start klondikecoin: click-to-pay handler</source>
-        <translation>Δεν είναι δυνατή η εκκίνηση του Klondikecoin: click-to-pay handler</translation>
+        <source>Cannot start silverspotcoin: click-to-pay handler</source>
+        <translation>Δεν είναι δυνατή η εκκίνηση του Silverspotcoin: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1222,8 +1222,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Klondikecoin-Qt help message to get a list with possible Klondikecoin command-line options.</source>
-        <translation>Εμφανιση του Klondikecoin-Qt μήνυματος βοήθειας για να πάρετε μια λίστα με τις πιθανές επιλογές Klondikecoin γραμμής εντολών.</translation>
+        <source>Show the Silverspotcoin-Qt help message to get a list with possible Silverspotcoin command-line options.</source>
+        <translation>Εμφανιση του Silverspotcoin-Qt μήνυματος βοήθειας για να πάρετε μια λίστα με τις πιθανές επιλογές Silverspotcoin γραμμής εντολών.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1242,13 +1242,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Klondikecoin - Debug window</source>
-        <translation>Klondikecoin - Παράθυρο αποσφαλμάτωσης</translation>
+        <source>Silverspotcoin - Debug window</source>
+        <translation>Silverspotcoin - Παράθυρο αποσφαλμάτωσης</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Klondikecoin Core</source>
-        <translation>Klondikecoin Core</translation>
+        <source>Silverspotcoin Core</source>
+        <translation>Silverspotcoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1257,7 +1257,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Klondikecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Silverspotcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Ανοίξτε το αρχείο καταγραφής εντοπισμού σφαλμάτων από τον τρέχοντα κατάλογο δεδομένων. Αυτό μπορεί να πάρει μερικά δευτερόλεπτα για τα μεγάλα αρχεία καταγραφής. </translation>
     </message>
     <message>
@@ -1267,8 +1267,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Klondikecoin RPC console.</source>
-        <translation>Καλώς ήρθατε στην Klondikecoin RPC κονσόλα.</translation>
+        <source>Welcome to the Silverspotcoin RPC console.</source>
+        <translation>Καλώς ήρθατε στην Silverspotcoin RPC κονσόλα.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1451,8 +1451,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Klondikecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Εισάγετε μια διεύθυνση Klondikecoin (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Silverspotcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Εισάγετε μια διεύθυνση Silverspotcoin (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1475,7 +1475,7 @@ Address: %4
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Εισάγετε μια διεύθυνση Klondikecoin (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>Εισάγετε μια διεύθυνση Silverspotcoin (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1516,8 +1516,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Klondikecoin address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση Klondikecoin</translation>
+        <source>Sign the message to prove you own this Silverspotcoin address</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση Silverspotcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1548,12 +1548,12 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Εισάγετε μια διεύθυνση Klondikecoin (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>Εισάγετε μια διεύθυνση Silverspotcoin (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Klondikecoin address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως υπογραφθηκε απο μια συγκεκριμένη διεύθυνση Klondikecoin</translation>
+        <source>Verify the message to ensure it was signed with the specified Silverspotcoin address</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν&apos; αποδείξετε πως υπογραφθηκε απο μια συγκεκριμένη διεύθυνση Silverspotcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1568,8 +1568,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Klondikecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Εισάγετε μια διεύθυνση Klondikecoin (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Silverspotcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Εισάγετε μια διεύθυνση Silverspotcoin (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1578,8 +1578,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Klondikecoin signature</source>
-        <translation>Εισαγωγή υπογραφής Klondikecoin</translation>
+        <source>Enter Silverspotcoin signature</source>
+        <translation>Εισαγωγή υπογραφής Silverspotcoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1652,8 +1652,8 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Klondikecoin developers</source>
-        <translation>Οι Klondikecoin προγραμματιστές </translation>
+        <source>The Silverspotcoin developers</source>
+        <translation>Οι Silverspotcoin προγραμματιστές </translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2190,8 +2190,8 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Klondikecoin version</source>
-        <translation>Έκδοση Klondikecoin</translation>
+        <source>Silverspotcoin version</source>
+        <translation>Έκδοση Silverspotcoin</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2200,8 +2200,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or klondikecoind</source>
-        <translation>Αποστολή εντολής στον εξυπηρετητή ή στο klondikecoind</translation>
+        <source>Send command to -server or silverspotcoind</source>
+        <translation>Αποστολή εντολής στον εξυπηρετητή ή στο silverspotcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2220,13 +2220,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: klondikecoin.conf)</source>
-        <translation>Ορίστε αρχείο ρυθμίσεων (προεπιλογή: klondikecoin.conf)</translation>
+        <source>Specify configuration file (default: silverspotcoin.conf)</source>
+        <translation>Ορίστε αρχείο ρυθμίσεων (προεπιλογή: silverspotcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: klondikecoind.pid)</source>
-        <translation>Ορίστε αρχείο pid (προεπιλογή: klondikecoind.pid)</translation>
+        <source>Specify pid file (default: silverspotcoind.pid)</source>
+        <translation>Ορίστε αρχείο pid (προεπιλογή: silverspotcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2303,24 +2303,24 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=klondikecoinrpc
+rpcuser=silverspotcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Klondikecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Silverspotcoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=klondikecoinrpc
+rpcuser=silverspotcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Klondikecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Silverspotcoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2335,8 +2335,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Klondikecoin Alert&quot; admin
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Klondikecoin is probably already running.</source>
-        <translation>Αδυναμία κλειδώματος του φακέλου δεδομένων %s. Πιθανώς το Klondikecoin να είναι ήδη ενεργό.</translation>
+        <source>Cannot obtain a lock on data directory %s. Silverspotcoin is probably already running.</source>
+        <translation>Αδυναμία κλειδώματος του φακέλου δεδομένων %s. Πιθανώς το Silverspotcoin να είναι ήδη ενεργό.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2381,8 +2381,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Klondikecoin Alert&quot; admin
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Klondikecoin will not work properly.</source>
-        <translation>Προειδοποίηση: Παρακαλώ βεβαιωθείτε πως η ημερομηνία κι ώρα του συστήματός σας είναι σωστές. Αν το ρολόι του υπολογιστή σας πάει λάθος, ενδέχεται να μη λειτουργεί σωστά το Klondikecoin.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Silverspotcoin will not work properly.</source>
+        <translation>Προειδοποίηση: Παρακαλώ βεβαιωθείτε πως η ημερομηνία κι ώρα του συστήματός σας είναι σωστές. Αν το ρολόι του υπολογιστή σας πάει λάθος, ενδέχεται να μη λειτουργεί σωστά το Silverspotcoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2631,8 +2631,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Klondikecoin Alert&quot; admin
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Klondikecoin Wiki for SSL setup instructions)</source>
-        <translation>Ρυθμίσεις SSL: (ανατρέξτε στο Klondikecoin Wiki για οδηγίες ρυθμίσεων SSL)</translation>
+        <source>SSL options: (see the Silverspotcoin Wiki for SSL setup instructions)</source>
+        <translation>Ρυθμίσεις SSL: (ανατρέξτε στο Silverspotcoin Wiki για οδηγίες ρυθμίσεων SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2821,13 +2821,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Klondikecoin Alert&quot; admin
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Klondikecoin</source>
-        <translation>Σφάλμα φόρτωσης wallet.dat: Το Πορτοφόλι απαιτεί μια νεότερη έκδοση του Klondikecoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Silverspotcoin</source>
+        <translation>Σφάλμα φόρτωσης wallet.dat: Το Πορτοφόλι απαιτεί μια νεότερη έκδοση του Silverspotcoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Klondikecoin to complete</source>
-        <translation>Απαιτείται η επανεγγραφή του Πορτοφολιού, η οποία θα ολοκληρωθεί στην επανεκκίνηση του Klondikecoin</translation>
+        <source>Wallet needed to be rewritten: restart Silverspotcoin to complete</source>
+        <translation>Απαιτείται η επανεγγραφή του Πορτοφολιού, η οποία θα ολοκληρωθεί στην επανεκκίνηση του Silverspotcoin</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2886,8 +2886,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Klondikecoin Alert&quot; admin
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Klondikecoin is probably already running.</source>
-        <translation>Αδύνατη η σύνδεση με τη θύρα %s αυτού του υπολογιστή. Το Klondikecoin είναι πιθανώς ήδη ενεργό.</translation>
+        <source>Unable to bind to %s on this computer. Silverspotcoin is probably already running.</source>
+        <translation>Αδύνατη η σύνδεση με τη θύρα %s αυτού του υπολογιστή. Το Silverspotcoin είναι πιθανώς ήδη ενεργό.</translation>
     </message>
     <message>
         <location line="+64"/>

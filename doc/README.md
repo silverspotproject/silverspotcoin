@@ -1,8 +1,8 @@
-Klondikecoin 0.8.x BETA
+Silverspotcoin 0.8.x BETA
 ====================
 
 Copyright (c) 2009-2013 Bitcoin Developers
-Copyright (c) 2011-2013 Klondikecoin Developers
+Copyright (c) 2011-2013 Silverspotcoin Developers
 
 Distributed under the MIT/X11 software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -12,7 +12,7 @@ cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cry
 
 Intro
 ---------------------
-Klondikecoin is a free open source peer-to-peer electronic cash system that is
+Silverspotcoin is a free open source peer-to-peer electronic cash system that is
 completely decentralized, without the need for a central server or trusted
 parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
@@ -20,17 +20,17 @@ with each other, with the help of a P2P network to check for double-spending.
 
 Setup
 ---------------------
-You need the Qt4 run-time libraries to run Klondikecoin-Qt. On Debian or Ubuntu:
+You need the Qt4 run-time libraries to run Silverspotcoin-Qt. On Debian or Ubuntu:
 	`sudo apt-get install libqtgui4`
 
 Unpack the files into a directory and run:
 
-- bin/32/klondikecoin-qt (GUI, 32-bit)
-- bin/32/klondikecoind (headless, 32-bit)
-- bin/64/klondikecoin-qt (GUI, 64-bit)
-- bin/64/klondikecoind (headless, 64-bit)
+- bin/32/silverspotcoin-qt (GUI, 32-bit)
+- bin/32/silverspotcoind (headless, 32-bit)
+- bin/64/silverspotcoin-qt (GUI, 64-bit)
+- bin/64/silverspotcoind (headless, 64-bit)
 
-See the documentation at the [Klondikecoin Wiki](http://klondikecoin.info)
+See the documentation at the [Silverspotcoin Wiki](http://silverspotcoin.info)
 for help and more information.
 
 

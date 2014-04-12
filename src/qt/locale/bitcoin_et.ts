@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Klondikecoin</source>
-        <translation>Klondikecoinist</translation>
+        <source>About Silverspotcoin</source>
+        <translation>Silverspotcoinist</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Klondikecoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Klondikecoini&lt;/b&gt; versioon</translation>
+        <source>&lt;b&gt;Silverspotcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Silverspotcoini&lt;/b&gt; versioon</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,7 +34,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+0"/>
-        <source>The Klondikecoin developers</source>
+        <source>The Silverspotcoin developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -67,8 +67,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Klondikecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Maksete saamiseks kasutatavad Klondikecoini aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
+        <source>These are your Silverspotcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Maksete saamiseks kasutatavad Silverspotcoini aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,7 +82,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Klondikecoin address</source>
+        <source>Sign a message to prove you own a Silverspotcoin address</source>
         <translation>Allkirjasta sõnum, et tõestada Bitconi aadressi olemasolu.</translation>
     </message>
     <message>
@@ -107,8 +107,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Klondikecoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Klondikecoini aadressiga.</translation>
+        <source>Verify a message to ensure it was signed with a specified Silverspotcoin address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Silverspotcoini aadressiga.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Klondikecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu Klondikecoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
+        <source>These are your Silverspotcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu Silverspotcoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -275,8 +275,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-56"/>
-        <source>Klondikecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your klondikecoins from being stolen by malware infecting your computer.</source>
-        <translation>Klondikecoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista klondikecoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
+        <source>Silverspotcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your silverspotcoins from being stolen by malware infecting your computer.</source>
+        <translation>Silverspotcoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista silverspotcoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Klondikecoin</source>
-        <translation>Kuva info Klondikecoini kohta</translation>
+        <source>Show information about Silverspotcoin</source>
+        <translation>Kuva info Silverspotcoini kohta</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Klondikecoin address</source>
-        <translation>Saada münte Klondikecoini aadressile</translation>
+        <source>Send coins to a Silverspotcoin address</source>
+        <translation>Saada münte Silverspotcoini aadressile</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Klondikecoin</source>
-        <translation>Muuda Klondikecoini seadeid</translation>
+        <source>Modify configuration options for Silverspotcoin</source>
+        <translation>Muuda Silverspotcoini seadeid</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Klondikecoin</source>
-        <translation>Klondikecoin</translation>
+        <source>Silverspotcoin</source>
+        <translation>Silverspotcoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Klondikecoin</source>
-        <translation>%Klondikecoinist</translation>
+        <source>&amp;About Silverspotcoin</source>
+        <translation>%Silverspotcoinist</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Klondikecoin addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Klondikecoini aadressiga</translation>
+        <source>Sign messages with your Silverspotcoin addresses to prove you own them</source>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Silverspotcoini aadressiga</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Klondikecoin addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Klondikecoini aadressiga</translation>
+        <source>Verify messages to ensure they were signed with specified Silverspotcoin addresses</source>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Silverspotcoini aadressiga</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+47"/>
-        <source>Klondikecoin client</source>
-        <translation>Klondikecoini klient</translation>
+        <source>Silverspotcoin client</source>
+        <translation>Silverspotcoini klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Klondikecoin network</source>
-        <translation><numerusform>%n aktiivne ühendus Klondikecoini võrku</numerusform><numerusform>%n aktiivset ühendust Klondikecoini võrku</numerusform></translation>
+        <source>%n active connection(s) to Silverspotcoin network</source>
+        <translation><numerusform>%n aktiivne ühendus Silverspotcoini võrku</numerusform><numerusform>%n aktiivset ühendust Silverspotcoini võrku</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -655,8 +655,8 @@ Aadress: %4⏎</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Klondikecoin address or malformed URI parameters.</source>
-        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu Klondikecoini aadress või vigased URI parameetrid.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Silverspotcoin address or malformed URI parameters.</source>
+        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu Silverspotcoini aadress või vigased URI parameetrid.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -670,8 +670,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Klondikecoin can no longer continue safely and will quit.</source>
-        <translation>Ilmnes kriitiline tõrge. Klondikecoin suletakse turvakaalutluste tõttu.</translation>
+        <source>A fatal error occurred. Silverspotcoin can no longer continue safely and will quit.</source>
+        <translation>Ilmnes kriitiline tõrge. Silverspotcoin suletakse turvakaalutluste tõttu.</translation>
     </message>
 </context>
 <context>
@@ -736,8 +736,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Klondikecoin address.</source>
-        <translation>Sisestatud aadress &quot;%1&quot; ei ole Klondikecoinis kehtiv.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Silverspotcoin address.</source>
+        <translation>Sisestatud aadress &quot;%1&quot; ei ole Silverspotcoinis kehtiv.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -755,8 +755,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Klondikecoin-Qt</source>
-        <translation>Klondikecoini-Qt</translation>
+        <source>Silverspotcoin-Qt</source>
+        <translation>Silverspotcoini-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -818,13 +818,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Klondikecoin after logging in to the system.</source>
-        <translation>Käivita Klondikecoin süsteemi logimisel.</translation>
+        <source>Automatically start Silverspotcoin after logging in to the system.</source>
+        <translation>Käivita Silverspotcoin süsteemi logimisel.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Klondikecoin on system login</source>
-        <translation>&amp;Start Klondikecoin sisselogimisel</translation>
+        <source>&amp;Start Silverspotcoin on system login</source>
+        <translation>&amp;Start Silverspotcoin sisselogimisel</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -843,8 +843,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Klondikecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Klondikecoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <source>Automatically open the Silverspotcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Silverspotcoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -853,8 +853,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Klondikecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Kasuta Klondikecoini võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
+        <source>Connect to the Silverspotcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Kasuta Silverspotcoini võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -928,8 +928,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Klondikecoin.</source>
-        <translation>Kasutajaliidese keele valimise koht. Valik rakendub Klondikecoini käivitamisel.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Silverspotcoin.</source>
+        <translation>Kasutajaliidese keele valimise koht. Valik rakendub Silverspotcoini käivitamisel.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -943,8 +943,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Klondikecoin addresses in the transaction list or not.</source>
-        <translation>Kuvada Klondikecoini aadress tehingute loetelus või mitte.</translation>
+        <source>Whether to show Silverspotcoin addresses in the transaction list or not.</source>
+        <translation>Kuvada Silverspotcoini aadress tehingute loetelus või mitte.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -995,8 +995,8 @@ Aadress: %4⏎</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Klondikecoin.</source>
-        <translation>Tehtud valik rakendub Klondikecoini käivitamisel.</translation>
+        <source>This setting will take effect after restarting Silverspotcoin.</source>
+        <translation>Tehtud valik rakendub Silverspotcoini käivitamisel.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1014,7 +1014,7 @@ Aadress: %4⏎</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Klondikecoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Silverspotcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Bitconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -1068,8 +1068,8 @@ Aadress: %4⏎</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start klondikecoin: click-to-pay handler</source>
-        <translation>Klondikecoin ei käivitu: vajuta-maksa toiming</translation>
+        <source>Cannot start silverspotcoin: click-to-pay handler</source>
+        <translation>Silverspotcoin ei käivitu: vajuta-maksa toiming</translation>
     </message>
 </context>
 <context>
@@ -1218,8 +1218,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Klondikecoin-Qt help message to get a list with possible Klondikecoin command-line options.</source>
-        <translation>Näita kehtivate käsurea valikute kuvamiseks Klondikecoini-Qt abiteksti</translation>
+        <source>Show the Silverspotcoin-Qt help message to get a list with possible Silverspotcoin command-line options.</source>
+        <translation>Näita kehtivate käsurea valikute kuvamiseks Silverspotcoini-Qt abiteksti</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1238,13 +1238,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Klondikecoin - Debug window</source>
-        <translation>Klondikecoin - debugimise aken</translation>
+        <source>Silverspotcoin - Debug window</source>
+        <translation>Silverspotcoin - debugimise aken</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Klondikecoin Core</source>
-        <translation>Klondikecoini tuumik</translation>
+        <source>Silverspotcoin Core</source>
+        <translation>Silverspotcoini tuumik</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1253,8 +1253,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Klondikecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ava Klondikecoini logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
+        <source>Open the Silverspotcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ava Silverspotcoini logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1263,8 +1263,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Klondikecoin RPC console.</source>
-        <translation>Teretulemast Klondikecoini RPC konsooli.</translation>
+        <source>Welcome to the Silverspotcoin RPC console.</source>
+        <translation>Teretulemast Silverspotcoini RPC konsooli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1447,8 +1447,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Klondikecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sisesta Klondikecoini aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Silverspotcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Sisesta Silverspotcoini aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1512,8 +1512,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Klondikecoin address</source>
-        <translation>Allkirjasta sõnum Klondikecoini aadressi sulle kuulumise tõestamiseks</translation>
+        <source>Sign the message to prove you own this Silverspotcoin address</source>
+        <translation>Allkirjasta sõnum Silverspotcoini aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1548,8 +1548,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Klondikecoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Klondikecoini aadressiga.</translation>
+        <source>Verify the message to ensure it was signed with the specified Silverspotcoin address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Silverspotcoini aadressiga.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1564,8 +1564,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Klondikecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sisesta Klondikecoini aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Silverspotcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Sisesta Silverspotcoini aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1574,8 +1574,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Klondikecoin signature</source>
-        <translation>Sisesta Klondikecoini allkiri</translation>
+        <source>Enter Silverspotcoin signature</source>
+        <translation>Sisesta Silverspotcoini allkiri</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1648,7 +1648,7 @@ Aadress: %4⏎</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Klondikecoin developers</source>
+        <source>The Silverspotcoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2186,8 +2186,8 @@ Aadress: %4⏎</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Klondikecoin version</source>
-        <translation>Klondikecoini versioon</translation>
+        <source>Silverspotcoin version</source>
+        <translation>Silverspotcoini versioon</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2196,8 +2196,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or klondikecoind</source>
-        <translation>Saada käsklus -serverile või klondikecoindile</translation>
+        <source>Send command to -server or silverspotcoind</source>
+        <translation>Saada käsklus -serverile või silverspotcoindile</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2216,13 +2216,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: klondikecoin.conf)</source>
-        <translation>Täpsusta sätete fail (vaikimisi: klondikecoin.conf)</translation>
+        <source>Specify configuration file (default: silverspotcoin.conf)</source>
+        <translation>Täpsusta sätete fail (vaikimisi: silverspotcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: klondikecoind.pid)</source>
-        <translation>Täpsusta PID fail (vaikimisi: klondikecoin.pid)</translation>
+        <source>Specify pid file (default: silverspotcoind.pid)</source>
+        <translation>Täpsusta PID fail (vaikimisi: silverspotcoin.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2299,24 +2299,24 @@ Aadress: %4⏎</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=klondikecoinrpc
+rpcuser=silverspotcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Klondikecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Silverspotcoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, sul tuleb rpcpassword määrata seadete failis:
 %s
 Soovitatav on kasutada järgmist juhuslikku parooli:
-rpcuser=klondikecoinrpc
+rpcuser=silverspotcoinrpc
 rpcpassword=%s
 (seda parooli ei pea meeles pidama)
 Kasutajanimi ning parool EI TOHI kattuda.
 Kui faili ei leita, loo see ainult-omaniku-loetavas failiõigustes .
 Soovitatav on seadistada tõrgete puhul teavitus;
-nt: alertnotify=echo %%s | email -s &quot;Klondikecoin Alert&quot; admin@foo.com
+nt: alertnotify=echo %%s | email -s &quot;Silverspotcoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2331,8 +2331,8 @@ nt: alertnotify=echo %%s | email -s &quot;Klondikecoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Klondikecoin is probably already running.</source>
-        <translation>Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on Klondikecoin juba avatud.</translation>
+        <source>Cannot obtain a lock on data directory %s. Silverspotcoin is probably already running.</source>
+        <translation>Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on Silverspotcoin juba avatud.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2376,8 +2376,8 @@ nt: alertnotify=echo %%s | email -s &quot;Klondikecoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Klondikecoin will not work properly.</source>
-        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis Klondikecoin ei tööta korralikult</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Silverspotcoin will not work properly.</source>
+        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis Silverspotcoin ei tööta korralikult</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2626,8 +2626,8 @@ nt: alertnotify=echo %%s | email -s &quot;Klondikecoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Klondikecoin Wiki for SSL setup instructions)</source>
-        <translation>SSL valikud: (vaata Klondikecoini Wikist või SSL sätete juhendist)</translation>
+        <source>SSL options: (see the Silverspotcoin Wiki for SSL setup instructions)</source>
+        <translation>SSL valikud: (vaata Silverspotcoini Wikist või SSL sätete juhendist)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2816,13 +2816,13 @@ nt: alertnotify=echo %%s | email -s &quot;Klondikecoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Klondikecoin</source>
-        <translation>Viga wallet.dat käivitamisel: Rahakott nõuab Klondikecoini uusimat versiooni</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Silverspotcoin</source>
+        <translation>Viga wallet.dat käivitamisel: Rahakott nõuab Silverspotcoini uusimat versiooni</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Klondikecoin to complete</source>
-        <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita Klondikecoin</translation>
+        <source>Wallet needed to be rewritten: restart Silverspotcoin to complete</source>
+        <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita Silverspotcoin</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2881,8 +2881,8 @@ nt: alertnotify=echo %%s | email -s &quot;Klondikecoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Klondikecoin is probably already running.</source>
-        <translation>%s&apos;ga ei ole võimalik sellest arvutist siduda. Klondikecoin juba töötab.</translation>
+        <source>Unable to bind to %s on this computer. Silverspotcoin is probably already running.</source>
+        <translation>%s&apos;ga ei ole võimalik sellest arvutist siduda. Silverspotcoin juba töötab.</translation>
     </message>
     <message>
         <location line="+64"/>

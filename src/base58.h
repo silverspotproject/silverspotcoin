@@ -272,7 +272,7 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 47, // Klondikecoin addresses start with K
+        PUBKEY_ADDRESS = 25, // Silverspotcoin addresses start with S
         SCRIPT_ADDRESS = 5,
         PUBKEY_ADDRESS_TEST = 111,
         SCRIPT_ADDRESS_TEST = 196,

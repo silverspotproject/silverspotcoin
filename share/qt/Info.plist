@@ -3,7 +3,7 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>klondikecoin.icns</string>
+	<string>silverspotcoin.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
@@ -15,19 +15,19 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>Klondikecoin-Qt</string>
+	<string>Silverspotcoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.klondikecoin.Klondikecoin-Qt</string>
+	<string>org.silverspotcoin.Silverspotcoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>org.klondikecoin.KlondikecoinPayment</string>
+            <string>org.silverspotcoin.SilverspotcoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>klondikecoin</string>
+              <string>silverspotcoin</string>
             </array>
           </dict>
         </array>

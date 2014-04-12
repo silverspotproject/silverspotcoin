@@ -6,7 +6,7 @@ Release Process
 ###update (commit) version in sources
 
 
-	klondikecoin-qt.pro
+	silverspotcoin-qt.pro
 	contrib/verifysfbinaries/verify.sh
 	doc/README*
 	share/setup.nsi
@@ -24,7 +24,7 @@ Release Process
 
 ##perform gitian builds
 
- From a directory containing the klondikecoin source, gitian-builder and gitian.sigs
+ From a directory containing the silverspotcoin source, gitian-builder and gitian.sigs
   
 	export SIGNER=(your gitian key, ie bluematt, sipa, etc)
 	export VERSION=0.8.0
@@ -42,54 +42,54 @@ Release Process
 	wget 'http://downloads.sourceforge.net/project/boost/boost/1.50.0/boost_1_50_0.tar.bz2'
 	wget 'http://releases.qt-project.org/qt4/source/qt-everywhere-opensource-src-4.8.3.tar.gz'
 	cd ..
-	./bin/gbuild ../klondikecoin/contrib/gitian-descriptors/boost-win32.yml
+	./bin/gbuild ../silverspotcoin/contrib/gitian-descriptors/boost-win32.yml
 	mv build/out/boost-win32-1.50.0-gitian2.zip inputs/
-	./bin/gbuild ../klondikecoin/contrib/gitian-descriptors/qt-win32.yml
+	./bin/gbuild ../silverspotcoin/contrib/gitian-descriptors/qt-win32.yml
 	mv build/out/qt-win32-4.8.3-gitian-r1.zip inputs/
-	./bin/gbuild ../klondikecoin/contrib/gitian-descriptors/deps-win32.yml
-	mv build/out/klondikecoin-deps-0.0.5.zip inputs/
+	./bin/gbuild ../silverspotcoin/contrib/gitian-descriptors/deps-win32.yml
+	mv build/out/silverspotcoin-deps-0.0.5.zip inputs/
 
- Build klondikecoind and klondikecoin-qt on Linux32, Linux64, and Win32:
+ Build silverspotcoind and silverspotcoin-qt on Linux32, Linux64, and Win32:
   
-	./bin/gbuild --commit klondikecoin=v${VERSION} ../klondikecoin/contrib/gitian-descriptors/gitian.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION} --destination ../gitian.sigs/ ../klondikecoin/contrib/gitian-descriptors/gitian.yml
+	./bin/gbuild --commit silverspotcoin=v${VERSION} ../silverspotcoin/contrib/gitian-descriptors/gitian.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION} --destination ../gitian.sigs/ ../silverspotcoin/contrib/gitian-descriptors/gitian.yml
 	pushd build/out
-	zip -r klondikecoin-${VERSION}-linux-gitian.zip *
-	mv klondikecoin-${VERSION}-linux-gitian.zip ../../
+	zip -r silverspotcoin-${VERSION}-linux-gitian.zip *
+	mv silverspotcoin-${VERSION}-linux-gitian.zip ../../
 	popd
-	./bin/gbuild --commit klondikecoin=v${VERSION} ../klondikecoin/contrib/gitian-descriptors/gitian-win32.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win32 --destination ../gitian.sigs/ ../klondikecoin/contrib/gitian-descriptors/gitian-win32.yml
+	./bin/gbuild --commit silverspotcoin=v${VERSION} ../silverspotcoin/contrib/gitian-descriptors/gitian-win32.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win32 --destination ../gitian.sigs/ ../silverspotcoin/contrib/gitian-descriptors/gitian-win32.yml
 	pushd build/out
-	zip -r klondikecoin-${VERSION}-win32-gitian.zip *
-	mv klondikecoin-${VERSION}-win32-gitian.zip ../../
+	zip -r silverspotcoin-${VERSION}-win32-gitian.zip *
+	mv silverspotcoin-${VERSION}-win32-gitian.zip ../../
 	popd
 
   Build output expected:
 
-  1. linux 32-bit and 64-bit binaries + source (klondikecoin-${VERSION}-linux-gitian.zip)
-  2. windows 32-bit binary, installer + source (klondikecoin-${VERSION}-win32-gitian.zip)
+  1. linux 32-bit and 64-bit binaries + source (silverspotcoin-${VERSION}-linux-gitian.zip)
+  2. windows 32-bit binary, installer + source (silverspotcoin-${VERSION}-win32-gitian.zip)
   3. Gitian signatures (in gitian.sigs/${VERSION}[-win32]/(your gitian key)/
 
 repackage gitian builds for release as stand-alone zip/tar/installer exe
 
 **Linux .tar.gz:**
 
-	unzip klondikecoin-${VERSION}-linux-gitian.zip -d klondikecoin-${VERSION}-linux
-	tar czvf klondikecoin-${VERSION}-linux.tar.gz klondikecoin-${VERSION}-linux
-	rm -rf klondikecoin-${VERSION}-linux
+	unzip silverspotcoin-${VERSION}-linux-gitian.zip -d silverspotcoin-${VERSION}-linux
+	tar czvf silverspotcoin-${VERSION}-linux.tar.gz silverspotcoin-${VERSION}-linux
+	rm -rf silverspotcoin-${VERSION}-linux
 
 **Windows .zip and setup.exe:**
 
-	unzip klondikecoin-${VERSION}-win32-gitian.zip -d klondikecoin-${VERSION}-win32
-	mv klondikecoin-${VERSION}-win32/klondikecoin-*-setup.exe .
-	zip -r klondikecoin-${VERSION}-win32.zip bitcoin-${VERSION}-win32
-	rm -rf klondikecoin-${VERSION}-win32
+	unzip silverspotcoin-${VERSION}-win32-gitian.zip -d silverspotcoin-${VERSION}-win32
+	mv silverspotcoin-${VERSION}-win32/silverspotcoin-*-setup.exe .
+	zip -r silverspotcoin-${VERSION}-win32.zip bitcoin-${VERSION}-win32
+	rm -rf silverspotcoin-${VERSION}-win32
 
 **Perform Mac build:**
 
   OSX binaries are created by Gavin Andresen on a 32-bit, OSX 10.6 machine.
 
-	qmake RELEASE=1 USE_UPNP=1 USE_QRCODE=1 klondikecoin-qt.pro
+	qmake RELEASE=1 USE_UPNP=1 USE_QRCODE=1 silverspotcoin-qt.pro
 	make
 	export QTDIR=/opt/local/share/qt4  # needed to find translations/qt_*.qm files
 	T=$(contrib/qt_translations.py $QTDIR/translations src/qt/locale)
@@ -107,14 +107,14 @@ repackage gitian builds for release as stand-alone zip/tar/installer exe
 
 * create SHA256SUMS for builds, and PGP-sign it
 
-* update klondikecoin.org version
+* update silverspotcoin.org version
   make sure all OS download links go to the right versions
 
 * update forum version
 
 * update wiki download links
 
-* update wiki changelog: [https://en.klondikecoin.it/wiki/Changelog](https://en.bitcoin.it/wiki/Changelog)
+* update wiki changelog: [https://en.silverspotcoin.it/wiki/Changelog](https://en.bitcoin.it/wiki/Changelog)
 
 Commit your signature to gitian.sigs:
 
@@ -129,32 +129,32 @@ Commit your signature to gitian.sigs:
 
 ### After 3 or more people have gitian-built, repackage gitian-signed zips:
 
-From a directory containing klondikecoin source, gitian.sigs and gitian zips
+From a directory containing silverspotcoin source, gitian.sigs and gitian zips
 
 	export VERSION=0.5.1
-	mkdir klondikecoin-${VERSION}-linux-gitian
-	pushd klondikecoin-${VERSION}-linux-gitian
-	unzip ../klondikecoin-${VERSION}-linux-gitian.zip
+	mkdir silverspotcoin-${VERSION}-linux-gitian
+	pushd silverspotcoin-${VERSION}-linux-gitian
+	unzip ../silverspotcoin-${VERSION}-linux-gitian.zip
 	mkdir gitian
-	cp ../klondikecoin/contrib/gitian-downloader/*.pgp ./gitian/
+	cp ../silverspotcoin/contrib/gitian-downloader/*.pgp ./gitian/
 	for signer in $(ls ../gitian.sigs/${VERSION}/); do
-	 cp ../gitian.sigs/${VERSION}/${signer}/klondikecoin-build.assert ./gitian/${signer}-build.assert
-	 cp ../gitian.sigs/${VERSION}/${signer}/klondikecoin-build.assert.sig ./gitian/${signer}-build.assert.sig
+	 cp ../gitian.sigs/${VERSION}/${signer}/silverspotcoin-build.assert ./gitian/${signer}-build.assert
+	 cp ../gitian.sigs/${VERSION}/${signer}/silverspotcoin-build.assert.sig ./gitian/${signer}-build.assert.sig
 	done
-	zip -r klondikecoin-${VERSION}-linux-gitian.zip *
-	cp klondikecoin-${VERSION}-linux-gitian.zip ../
+	zip -r silverspotcoin-${VERSION}-linux-gitian.zip *
+	cp silverspotcoin-${VERSION}-linux-gitian.zip ../
 	popd
-	mkdir klondikecoin-${VERSION}-win32-gitian
-	pushd klondikecoin-${VERSION}-win32-gitian
-	unzip ../klondikecoin-${VERSION}-win32-gitian.zip
+	mkdir silverspotcoin-${VERSION}-win32-gitian
+	pushd silverspotcoin-${VERSION}-win32-gitian
+	unzip ../silverspotcoin-${VERSION}-win32-gitian.zip
 	mkdir gitian
-	cp ../klondikecoin/contrib/gitian-downloader/*.pgp ./gitian/
+	cp ../silverspotcoin/contrib/gitian-downloader/*.pgp ./gitian/
 	for signer in $(ls ../gitian.sigs/${VERSION}-win32/); do
-	 cp ../gitian.sigs/${VERSION}-win32/${signer}/klondikecoin-build.assert ./gitian/${signer}-build.assert
-	 cp ../gitian.sigs/${VERSION}-win32/${signer}/klondikecoin-build.assert.sig ./gitian/${signer}-build.assert.sig
+	 cp ../gitian.sigs/${VERSION}-win32/${signer}/silverspotcoin-build.assert ./gitian/${signer}-build.assert
+	 cp ../gitian.sigs/${VERSION}-win32/${signer}/silverspotcoin-build.assert.sig ./gitian/${signer}-build.assert.sig
 	done
-	zip -r klondikecoin-${VERSION}-win32-gitian.zip *
-	cp klondikecoin-${VERSION}-win32-gitian.zip ../
+	zip -r silverspotcoin-${VERSION}-win32-gitian.zip *
+	cp silverspotcoin-${VERSION}-win32-gitian.zip ../
 	popd
 
 - Upload gitian zips to SourceForge

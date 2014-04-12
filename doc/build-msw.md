@@ -5,7 +5,7 @@ This product includes software developed by the OpenSSL Project for use in the [
 cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cryptsoft.com)), and UPnP software written by Thomas Bernard.
 
 
-See readme-qt.rst for instructions on building Klondikecoin-Qt, the
+See readme-qt.rst for instructions on building Silverspotcoin-Qt, the
 graphical user interface.
 
 WINDOWS BUILD NOTES
@@ -80,10 +80,10 @@ MSYS shell:
 	mkdir miniupnpc
 	cp *.h miniupnpc/
 
-Klondikecoin
+Silverspotcoin
 -------
 DOS prompt:
 
-	cd \klondikecoin\src
+	cd \silverspotcoin\src
 	mingw32-make -f makefile.mingw
-	strip klondikecoind.exe
+	strip silverspotcoind.exe

@@ -108,10 +108,10 @@ OBJS_SSE2= obj/scrypt-sse2.o
 OBJS += $(OBJS_SSE2)
 endif
 
-all: klondikecoind.exe
+all: silverspotcoind.exe
 
-test check: test_klondikecoin.exe FORCE
-	test_klondikecoin.exe
+test check: test_silverspotcoin.exe FORCE
+	test_silverspotcoin.exe
 
 #
 # LevelDB support
@@ -128,7 +128,7 @@ obj/%-sse2.o: %-sse2.cpp
 obj/%.o: %.cpp $(HEADERS)
 	$(CXX) -c $(CFLAGS) -o $@ $<
 
-klondikecoind.exe: $(OBJS:obj/%=obj/%)
+silverspotcoind.exe: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -136,11 +136,11 @@ TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
 obj-test/%.o: test/%.cpp $(HEADERS)
 	$(CXX) -c $(TESTDEFS) $(CFLAGS) -o $@ $<
 
-test_klondikecoin.exe: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+test_silverspotcoin.exe: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework$(BOOST_SUFFIX) $(LIBS)
 
 clean:
-	rm -f klondikecoind.exe test_klondikecoin.exe
+	rm -f silverspotcoind.exe test_silverspotcoin.exe
 	rm -f obj/*
 	rm -f obj-test/*
 	cd leveldb && $(MAKE) TARGET_OS=NATIVE_WINDOWS clean && cd ..

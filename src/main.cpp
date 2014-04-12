@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2013-2014 The Klondikecoin developers
+// Copyright (c) 2013-2014 The Silverspotcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -33,7 +33,7 @@ unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
 uint256 hashGenesisBlock("0xb0b53c5a2c64bcd2a621edd887653ddc0ba76ce047ee648cb6429c737a978a72");
-static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Klondikecoin: starting difficulty is 1 / 2^12
+static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Silverspotcoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 uint256 nBestChainWork = 0;
@@ -65,7 +65,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Klondikecoin Signed Message:\n";
+const string strMessageMagic = "Silverspotcoin Signed Message:\n";
 
 double dHashesPerSec = 0.0;
 int64 nHPSTimerStart = 0;
@@ -356,7 +356,7 @@ unsigned int LimitOrphanTxSize(unsigned int nMaxOrphans)
 
 bool CTxOut::IsDust() const
 {
-    // Klondikecoin: IsDust() detection disabled, allows any valid dust to be relayed.
+    // Silverspotcoin: IsDust() detection disabled, allows any valid dust to be relayed.
     // The fees imposed on each dust txo is considered sufficient spam deterrant. 
     return false;
 }
@@ -613,7 +613,7 @@ int64 CTransaction::GetMinFee(unsigned int nBlockSize, bool fAllowFree,
             nMinFee = 0;
     }
 
-    // Klondikecoin
+    // Silverspotcoin
     // To limit dust spam, add nBaseFee for each output less than DUST_SOFT_LIMIT
     BOOST_FOREACH(const CTxOut& txout, vout)
         if (txout.nValue < DUST_SOFT_LIMIT)
@@ -1064,48 +1064,16 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
 
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
-    int64 nSubsidy = 77 * COIN;
-	
-	static const int HARDFORK_HEIGHT_1 = 84576;
-		
-	if(nHeight <= HARDFORK_HEIGHT_1)
-	{
-		nSubsidy = 77 * COIN;
-	}	
-	else if(nHeight > HARDFORK_HEIGHT_1)
-    {
-		if(nHeight < 127776)
-		{
-			nSubsidy = 16 * COIN;
-		}
-		else if(nHeight < 170976)
-		{
-			nSubsidy = 8 * COIN;
-		}
-		else if(nHeight < 2273376)
-		{
-			nSubsidy = 4 * COIN;
-		}
-		else if(nHeight < 3324576)
-		{
-			nSubsidy = 2 * COIN;
-		}
-		else if(nHeight < 4901376)
-		{
-			nSubsidy = 1 * COIN;
-		}
-		else if(nHeight < 5522934)
-		{
-			nSubsidy = 0.5 * COIN;
-		}
-		else nSubsidy = 0.2 * COIN;
-	}
-	
+    int64 nSubsidy = 0.75 * COIN;
+
+    // Subsidy is cut in half every 2628000 blocks, which will occur approximately every 5 years
+    nSubsidy >>= (nHeight / 50000); // 
+
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 1 * 24 * 60 * 60; // Klondikecoin: 1 days
-static const int64 nTargetSpacing = 1 * 60; // Klondikecoin: 1 Minute Blocks
+static const int64 nTargetTimespan = 1 * 24 * 60 * 60; // Silverspotcoin: 1 days
+static const int64 nTargetSpacing = 1 * 60; // Silverspotcoin: 1 Minute Blocks
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
@@ -1164,7 +1132,7 @@ unsigned int static GetNextWorkRequired_V1(const CBlockIndex* pindexLast, const 
         return pindexLast->nBits;
     }
 
-    // Klondikecoin: This fixes an issue where a 51% attack can change difficulty at will.
+    // Silverspotcoin: This fixes an issue where a 51% attack can change difficulty at will.
     // Go back the full period unless it's the first retarget after genesis. Code courtesy of Art Forz
     int blockstogoback = nInterval-1;
     if ((pindexLast->nHeight+1) != nInterval)
@@ -2195,7 +2163,7 @@ bool CBlock::CheckBlock(CValidationState &state, bool fCheckPOW, bool fCheckMerk
     if (vtx.empty() || vtx.size() > MAX_BLOCK_SIZE || ::GetSerializeSize(*this, SER_NETWORK, PROTOCOL_VERSION) > MAX_BLOCK_SIZE)
         return state.DoS(100, error("CheckBlock() : size limits failed"));
 
-    // Klondikecoin: Special short-term limits to avoid 10,000 BDB lock limit:
+    // Silverspotcoin: Special short-term limits to avoid 10,000 BDB lock limit:
     if (GetBlockTime() < 1376568000)  // stop enforcing 15 August 2013 00:00:00
     {
         // Rule is: #unique txids referenced <= 4,500
@@ -2357,7 +2325,7 @@ bool CBlock::AcceptBlock(CValidationState &state, CDiskBlockPos *dbp)
 
 bool CBlockIndex::IsSuperMajority(int minVersion, const CBlockIndex* pstart, unsigned int nRequired, unsigned int nToCheck)
 {
-    // Klondikecoin: temporarily disable v2 block lockin until we are ready for v2 transition
+    // Silverspotcoin: temporarily disable v2 block lockin until we are ready for v2 transition
     return false;
     unsigned int nFound = 0;
     for (unsigned int i = 0; i < nToCheck && nFound < nRequired && pstart != NULL; i++)
@@ -2875,7 +2843,7 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "What Would You Do For A Klondike Block?";
+        const char* pszTimestamp = "Sunny day in Paradise";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2887,13 +2855,13 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1389270164;
+        block.nTime    = 1397291706;
         block.nBits    = 0x1e0ffff0;
         block.nNonce   = 2085271509;
 
         if (fTestNet)
         {
-            block.nTime    = 1389270164;
+            block.nTime    = 1397291706;
             block.nNonce   = 385270584;
         }
 
@@ -3175,7 +3143,7 @@ bool static AlreadyHave(const CInv& inv)
 // The message start string is designed to be unlikely to occur in normal data.
 // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 // a large 4-byte int at any alignment.
-unsigned char pchMessageStart[4] = { 0xfb, 0xc0, 0xb6, 0xdb }; // Klondikecoin: increase each by adding 2 to bitcoin's value.
+unsigned char pchMessageStart[4] = { 0xfb, 0xc0, 0xb6, 0xdb }; // Silverspotcoin: increase each by adding 2 to bitcoin's value.
 
 
 void static ProcessGetData(CNode* pfrom)
@@ -4217,7 +4185,7 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// KlondikecoinMiner
+// SilverspotcoinMiner
 //
 
 int static FormatHashBlocks(void* pbuffer, unsigned int len)
@@ -4630,7 +4598,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         return false;
 
     //// debug print
-    printf("KlondikecoinMiner:\n");
+    printf("SilverspotcoinMiner:\n");
     printf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex().c_str(), hashTarget.GetHex().c_str());
     pblock->print();
     printf("generated %s\n", FormatMoney(pblock->vtx[0].vout[0].nValue).c_str());
@@ -4639,7 +4607,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != hashBestChain)
-            return error("KlondikecoinMiner : generated block is stale");
+            return error("SilverspotcoinMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -4653,17 +4621,17 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         // Process this block the same as if we had received it from another node
         CValidationState state;
         if (!ProcessBlock(state, NULL, pblock))
-            return error("KlondikecoinMiner : ProcessBlock, block not accepted");
+            return error("SilverspotcoinMiner : ProcessBlock, block not accepted");
     }
 
     return true;
 }
 
-void static KlondikecoinMiner(CWallet *pwallet)
+void static SilverspotcoinMiner(CWallet *pwallet)
 {
-    printf("KlondikecoinMiner started\n");
+    printf("SilverspotcoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("klondikecoin-miner");
+    RenameThread("silverspotcoin-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -4685,7 +4653,7 @@ void static KlondikecoinMiner(CWallet *pwallet)
         CBlock *pblock = &pblocktemplate->block;
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        printf("Running KlondikecoinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
+        printf("Running SilverspotcoinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
                ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -4797,7 +4765,7 @@ void static KlondikecoinMiner(CWallet *pwallet)
     } }
     catch (boost::thread_interrupted)
     {
-        printf("KlondikecoinMiner terminated\n");
+        printf("SilverspotcoinMiner terminated\n");
         throw;
     }
 }
@@ -4822,7 +4790,7 @@ void GenerateBitcoins(bool fGenerate, CWallet* pwallet)
 
     minerThreads = new boost::thread_group();
     for (int i = 0; i < nThreads; i++)
-        minerThreads->create_thread(boost::bind(&KlondikecoinMiner, pwallet));
+        minerThreads->create_thread(boost::bind(&SilverspotcoinMiner, pwallet));
 }
 
 // Amount compression:

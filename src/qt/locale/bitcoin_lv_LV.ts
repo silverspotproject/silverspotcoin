@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Klondikecoin</source>
-        <translation>Par Klondikecoin</translation>
+        <source>About Silverspotcoin</source>
+        <translation>Par Silverspotcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Klondikecoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Klondikecoin&lt;/b&gt; versija</translation>
+        <source>&lt;b&gt;Silverspotcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Silverspotcoin&lt;/b&gt; versija</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The Klondikecoin developers</source>
+        <source>The Silverspotcoin developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,7 +62,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Klondikecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Silverspotcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -77,7 +77,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Klondikecoin address</source>
+        <source>Sign a message to prove you own a Silverspotcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -102,7 +102,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Klondikecoin address</source>
+        <source>Verify a message to ensure it was signed with a specified Silverspotcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -117,7 +117,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Klondikecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Silverspotcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Klondikecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your klondikecoins from being stolen by malware infecting your computer.</source>
-        <translation>Klondikecoin aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst bitkoinu zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
+        <source>Silverspotcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your silverspotcoins from being stolen by malware infecting your computer.</source>
+        <translation>Silverspotcoin aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst bitkoinu zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -369,8 +369,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Klondikecoin</source>
-        <translation>Parādīt informāciju par Klondikecoin</translation>
+        <source>Show information about Silverspotcoin</source>
+        <translation>Parādīt informāciju par Silverspotcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -414,13 +414,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Klondikecoin address</source>
-        <translation>Nosūtīt bitkoinus uz Klondikecoin adresi</translation>
+        <source>Send coins to a Silverspotcoin address</source>
+        <translation>Nosūtīt bitkoinus uz Silverspotcoin adresi</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Klondikecoin</source>
-        <translation>Mainīt Klondikecoin konfigurācijas uzstādījumus</translation>
+        <source>Modify configuration options for Silverspotcoin</source>
+        <translation>Mainīt Silverspotcoin konfigurācijas uzstādījumus</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -450,7 +450,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Klondikecoin</source>
+        <source>Silverspotcoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -475,7 +475,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Klondikecoin</source>
+        <source>&amp;About Silverspotcoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -495,12 +495,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Klondikecoin addresses to prove you own them</source>
+        <source>Sign messages with your Silverspotcoin addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Klondikecoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Silverspotcoin addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -531,13 +531,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>Klondikecoin client</source>
-        <translation>Klondikecoin klients</translation>
+        <source>Silverspotcoin client</source>
+        <translation>Silverspotcoin klients</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Klondikecoin network</source>
-        <translation><numerusform>%n aktīvu savienojumu ar Klondikecoin tīklu</numerusform><numerusform>%n aktīvs savienojums ar Klondikecoin tīklu</numerusform><numerusform>%n aktīvu savienojumu as Klondikecoin tīklu</numerusform></translation>
+        <source>%n active connection(s) to Silverspotcoin network</source>
+        <translation><numerusform>%n aktīvu savienojumu ar Silverspotcoin tīklu</numerusform><numerusform>%n aktīvs savienojums ar Silverspotcoin tīklu</numerusform><numerusform>%n aktīvu savienojumu as Silverspotcoin tīklu</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -651,7 +651,7 @@ Adrese: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Klondikecoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Silverspotcoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -666,7 +666,7 @@ Adrese: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Klondikecoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Silverspotcoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -732,8 +732,8 @@ Adrese: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Klondikecoin address.</source>
-        <translation>Ierakstītā adrese &quot;%1&quot; nav derīga Klondikecoin adrese.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Silverspotcoin address.</source>
+        <translation>Ierakstītā adrese &quot;%1&quot; nav derīga Silverspotcoin adrese.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -751,8 +751,8 @@ Adrese: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Klondikecoin-Qt</source>
-        <translation>Klondikecoin-Qt</translation>
+        <source>Silverspotcoin-Qt</source>
+        <translation>Silverspotcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -814,13 +814,13 @@ Adrese: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Klondikecoin after logging in to the system.</source>
-        <translation>Automātiski sākt Klondikecoin pēc pieteikšanās sistēmā.</translation>
+        <source>Automatically start Silverspotcoin after logging in to the system.</source>
+        <translation>Automātiski sākt Silverspotcoin pēc pieteikšanās sistēmā.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Klondikecoin on system login</source>
-        <translation>&amp;Sākt Klondikecoin reizē ar sistēmu</translation>
+        <source>&amp;Start Silverspotcoin on system login</source>
+        <translation>&amp;Sākt Silverspotcoin reizē ar sistēmu</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -839,8 +839,8 @@ Adrese: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Klondikecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Uz rūtera automātiski atvērt Klondikecoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
+        <source>Automatically open the Silverspotcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Uz rūtera automātiski atvērt Silverspotcoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -849,7 +849,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Klondikecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Silverspotcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -924,8 +924,8 @@ Adrese: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Klondikecoin.</source>
-        <translation>Šeit var iestatīt lietotāja valodu. Iestatījums aktivizēsies pēc Klondikecoin pārstartēšanas.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Silverspotcoin.</source>
+        <translation>Šeit var iestatīt lietotāja valodu. Iestatījums aktivizēsies pēc Silverspotcoin pārstartēšanas.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -939,8 +939,8 @@ Adrese: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Klondikecoin addresses in the transaction list or not.</source>
-        <translation>Rādīt vai nē Klondikecoin adreses transakciju sarakstā.</translation>
+        <source>Whether to show Silverspotcoin addresses in the transaction list or not.</source>
+        <translation>Rādīt vai nē Silverspotcoin adreses transakciju sarakstā.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -991,7 +991,7 @@ Adrese: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Klondikecoin.</source>
+        <source>This setting will take effect after restarting Silverspotcoin.</source>
         <translation>Iestatījums aktivizēsies pēc Bitkoin pārstartēšanas.</translation>
     </message>
     <message>
@@ -1010,8 +1010,8 @@ Adrese: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Klondikecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Klondikecoin tīklu, taču šis process vēl nav beidzies.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Silverspotcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Silverspotcoin tīklu, taču šis process vēl nav beidzies.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1064,7 +1064,7 @@ Adrese: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start klondikecoin: click-to-pay handler</source>
+        <source>Cannot start silverspotcoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1214,7 +1214,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Klondikecoin-Qt help message to get a list with possible Klondikecoin command-line options.</source>
+        <source>Show the Silverspotcoin-Qt help message to get a list with possible Silverspotcoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1234,12 +1234,12 @@ Adrese: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Klondikecoin - Debug window</source>
+        <source>Silverspotcoin - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>Klondikecoin Core</source>
+        <source>Silverspotcoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1249,7 +1249,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Klondikecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Silverspotcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1259,8 +1259,8 @@ Adrese: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Klondikecoin RPC console.</source>
-        <translation>Laipni lūgti Klondikecoin RPC konsolē.</translation>
+        <source>Welcome to the Silverspotcoin RPC console.</source>
+        <translation>Laipni lūgti Silverspotcoin RPC konsolē.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1443,8 +1443,8 @@ Adrese: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Klondikecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ierakstiet Klondikecoin adresi (piem. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Silverspotcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Ierakstiet Silverspotcoin adresi (piem. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1508,7 +1508,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Klondikecoin address</source>
+        <source>Sign the message to prove you own this Silverspotcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1544,7 +1544,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Klondikecoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Silverspotcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1560,8 +1560,8 @@ Adrese: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Klondikecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ierakstiet Klondikecoin adresi (piem. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Silverspotcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Ierakstiet Silverspotcoin adresi (piem. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1570,7 +1570,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Klondikecoin signature</source>
+        <source>Enter Silverspotcoin signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1644,7 +1644,7 @@ Adrese: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Klondikecoin developers</source>
+        <source>The Silverspotcoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2182,8 +2182,8 @@ Adrese: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Klondikecoin version</source>
-        <translation>Klondikecoin versija</translation>
+        <source>Silverspotcoin version</source>
+        <translation>Silverspotcoin versija</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2192,8 +2192,8 @@ Adrese: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or klondikecoind</source>
-        <translation>Nosūtīt komantu uz -server vai klondikecoind</translation>
+        <source>Send command to -server or silverspotcoind</source>
+        <translation>Nosūtīt komantu uz -server vai silverspotcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2212,13 +2212,13 @@ Adrese: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: klondikecoin.conf)</source>
-        <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: klondikecoin.conf)</translation>
+        <source>Specify configuration file (default: silverspotcoin.conf)</source>
+        <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: silverspotcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: klondikecoind.pid)</source>
-        <translation>Norādiet pid failu (pēc noklusēšanas: klondikecoind.pid)</translation>
+        <source>Specify pid file (default: silverspotcoind.pid)</source>
+        <translation>Norādiet pid failu (pēc noklusēšanas: silverspotcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2295,13 +2295,13 @@ Adrese: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=klondikecoinrpc
+rpcuser=silverspotcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Klondikecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Silverspotcoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2317,7 +2317,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Klondikecoin Alert&quot; admin
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Klondikecoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Silverspotcoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2362,7 +2362,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Klondikecoin Alert&quot; admin
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Klondikecoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Silverspotcoin will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2612,7 +2612,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Klondikecoin Alert&quot; admin
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Klondikecoin Wiki for SSL setup instructions)</source>
+        <source>SSL options: (see the Silverspotcoin Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2802,13 +2802,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Klondikecoin Alert&quot; admin
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Klondikecoin</source>
-        <translation>Nevar ielādēt wallet.dat: maciņa atvēršanai nepieciešama jaunāka Klondikecoin versija</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Silverspotcoin</source>
+        <translation>Nevar ielādēt wallet.dat: maciņa atvēršanai nepieciešama jaunāka Silverspotcoin versija</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Klondikecoin to complete</source>
-        <translation>Bija nepieciešams pārstartēt maciņu: pabeigšanai pārstartējiet Klondikecoin</translation>
+        <source>Wallet needed to be rewritten: restart Silverspotcoin to complete</source>
+        <translation>Bija nepieciešams pārstartēt maciņu: pabeigšanai pārstartējiet Silverspotcoin</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2867,8 +2867,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Klondikecoin Alert&quot; admin
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Klondikecoin is probably already running.</source>
-        <translation>Nevar pievienoties %s uz šī datora. Klondikecoin droši vien jau darbojas.</translation>
+        <source>Unable to bind to %s on this computer. Silverspotcoin is probably already running.</source>
+        <translation>Nevar pievienoties %s uz šī datora. Silverspotcoin droši vien jau darbojas.</translation>
     </message>
     <message>
         <location line="+64"/>

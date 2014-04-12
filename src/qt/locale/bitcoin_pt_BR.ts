@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Klondikecoin</source>
-        <translation>Sobre o Klondikecoin</translation>
+        <source>About Silverspotcoin</source>
+        <translation>Sobre o Silverspotcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Klondikecoin&lt;/b&gt; version</source>
-        <translation>Versão do &lt;b&gt;Klondikecoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Silverspotcoin&lt;/b&gt; version</source>
+        <translation>Versão do &lt;b&gt;Silverspotcoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="+0"/>
-        <source>The Klondikecoin developers</source>
-        <translation>Desenvolvedores do Klondikecoin</translation>
+        <source>The Silverspotcoin developers</source>
+        <translation>Desenvolvedores do Silverspotcoin</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Klondikecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Estes são os seus endereços Klondikecoin para receber pagamentos. Você pode querer enviar um endereço diferente para cada remetente, para acompanhar quem está pagando.</translation>
+        <source>These are your Silverspotcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Estes são os seus endereços Silverspotcoin para receber pagamentos. Você pode querer enviar um endereço diferente para cada remetente, para acompanhar quem está pagando.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Klondikecoin address</source>
-        <translation>Assine uma mensagem para provar que você é dono de um endereço Klondikecoin</translation>
+        <source>Sign a message to prove you own a Silverspotcoin address</source>
+        <translation>Assine uma mensagem para provar que você é dono de um endereço Silverspotcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Klondikecoin address</source>
-        <translation>Verificar mensagem para se assegurar que ela foi assinada pelo dono de um endereço Klondikecoin específico.</translation>
+        <source>Verify a message to ensure it was signed with a specified Silverspotcoin address</source>
+        <translation>Verificar mensagem para se assegurar que ela foi assinada pelo dono de um endereço Silverspotcoin específico.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Klondikecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os seus endereços Klondikecoin para receber pagamentos. Você pode querer enviar um endereço diferente para cada remetente, para acompanhar quem está pagando.</translation>
+        <source>These are your Silverspotcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes são os seus endereços Silverspotcoin para receber pagamentos. Você pode querer enviar um endereço diferente para cada remetente, para acompanhar quem está pagando.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -275,8 +275,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="-56"/>
-        <source>Klondikecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your klondikecoins from being stolen by malware infecting your computer.</source>
-        <translation>O Klondikecoin irá fechar agora para finalizar o processo de encriptação. Lembre-se de que encriptar sua carteira não protege totalmente suas klondikecoins de serem roubadas por malwares que tenham infectado o seu computador.</translation>
+        <source>Silverspotcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your silverspotcoins from being stolen by malware infecting your computer.</source>
+        <translation>O Silverspotcoin irá fechar agora para finalizar o processo de encriptação. Lembre-se de que encriptar sua carteira não protege totalmente suas silverspotcoins de serem roubadas por malwares que tenham infectado o seu computador.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Klondikecoin</source>
-        <translation>Mostrar informação sobre Klondikecoin</translation>
+        <source>Show information about Silverspotcoin</source>
+        <translation>Mostrar informação sobre Silverspotcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Klondikecoin address</source>
-        <translation>Enviar moedas para um endereço klondikecoin</translation>
+        <source>Send coins to a Silverspotcoin address</source>
+        <translation>Enviar moedas para um endereço silverspotcoin</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Klondikecoin</source>
-        <translation>Modificar opções de configuração para klondikecoin</translation>
+        <source>Modify configuration options for Silverspotcoin</source>
+        <translation>Modificar opções de configuração para silverspotcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Klondikecoin</source>
-        <translation>Klondikecoin</translation>
+        <source>Silverspotcoin</source>
+        <translation>Silverspotcoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Klondikecoin</source>
-        <translation>&amp;Sobre o Klondikecoin</translation>
+        <source>&amp;About Silverspotcoin</source>
+        <translation>&amp;Sobre o Silverspotcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Klondikecoin addresses to prove you own them</source>
-        <translation>Assine mensagems com seus endereços Klondikecoin para provar que você é dono deles</translation>
+        <source>Sign messages with your Silverspotcoin addresses to prove you own them</source>
+        <translation>Assine mensagems com seus endereços Silverspotcoin para provar que você é dono deles</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Klondikecoin addresses</source>
-        <translation>Verificar mensagens para se assegurar que elas foram assinadas pelo dono de Endereços Klondikecoin específicos</translation>
+        <source>Verify messages to ensure they were signed with specified Silverspotcoin addresses</source>
+        <translation>Verificar mensagens para se assegurar que elas foram assinadas pelo dono de Endereços Silverspotcoin específicos</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="+47"/>
-        <source>Klondikecoin client</source>
-        <translation>Cliente Klondikecoin</translation>
+        <source>Silverspotcoin client</source>
+        <translation>Cliente Silverspotcoin</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Klondikecoin network</source>
-        <translation><numerusform>%n conexão ativa na rede Klondikecoin</numerusform><numerusform>%n conexões ativas na rede Klondikecoin</numerusform></translation>
+        <source>%n active connection(s) to Silverspotcoin network</source>
+        <translation><numerusform>%n conexão ativa na rede Silverspotcoin</numerusform><numerusform>%n conexões ativas na rede Silverspotcoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -655,8 +655,8 @@ Endereço: %4</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Klondikecoin address or malformed URI parameters.</source>
-        <translation>URI não pode ser decodificado! Isso pode ter sido causado por um endereço Klondikecoin inválido ou por parâmetros URI malformados.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Silverspotcoin address or malformed URI parameters.</source>
+        <translation>URI não pode ser decodificado! Isso pode ter sido causado por um endereço Silverspotcoin inválido ou por parâmetros URI malformados.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -670,8 +670,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Klondikecoin can no longer continue safely and will quit.</source>
-        <translation>Um erro fatal ocorreu. Klondikecoin não pode continuar em segurança e irá fechar.</translation>
+        <source>A fatal error occurred. Silverspotcoin can no longer continue safely and will quit.</source>
+        <translation>Um erro fatal ocorreu. Silverspotcoin não pode continuar em segurança e irá fechar.</translation>
     </message>
 </context>
 <context>
@@ -736,8 +736,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Klondikecoin address.</source>
-        <translation>O endereço digitado &quot;%1&quot; não é um endereço Klondikecoin válido.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Silverspotcoin address.</source>
+        <translation>O endereço digitado &quot;%1&quot; não é um endereço Silverspotcoin válido.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -755,8 +755,8 @@ Endereço: %4</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Klondikecoin-Qt</source>
-        <translation>Klondikecoin-Qt</translation>
+        <source>Silverspotcoin-Qt</source>
+        <translation>Silverspotcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -818,13 +818,13 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Klondikecoin after logging in to the system.</source>
-        <translation>Iniciar Klondikecoin automaticamente após se logar no sistema.</translation>
+        <source>Automatically start Silverspotcoin after logging in to the system.</source>
+        <translation>Iniciar Silverspotcoin automaticamente após se logar no sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Klondikecoin on system login</source>
-        <translation>Iniciar Klondikecoin no login do sistema</translation>
+        <source>&amp;Start Silverspotcoin on system login</source>
+        <translation>Iniciar Silverspotcoin no login do sistema</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -843,8 +843,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Klondikecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir as portas do cliente Klondikecoin automaticamente no roteador. Isto só funcionará se seu roteador suportar UPnP e esta função estiver habilitada.</translation>
+        <source>Automatically open the Silverspotcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir as portas do cliente Silverspotcoin automaticamente no roteador. Isto só funcionará se seu roteador suportar UPnP e esta função estiver habilitada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -853,8 +853,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Klondikecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conectar à rede Klondikecoin através de um proxy SOCKS (ex. quando estiver usando através do Tor)</translation>
+        <source>Connect to the Silverspotcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conectar à rede Silverspotcoin através de um proxy SOCKS (ex. quando estiver usando através do Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -928,8 +928,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Klondikecoin.</source>
-        <translation>A língua da interface com usuário pode ser escolhida aqui. Esta configuração só surtirá efeito após reiniciar o Klondikecoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Silverspotcoin.</source>
+        <translation>A língua da interface com usuário pode ser escolhida aqui. Esta configuração só surtirá efeito após reiniciar o Silverspotcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -939,12 +939,12 @@ Endereço: %4</translation>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Escolha a unidade padrão de subdivisão para interface mostrar quando enviar klondikecoins.</translation>
+        <translation>Escolha a unidade padrão de subdivisão para interface mostrar quando enviar silverspotcoins.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Klondikecoin addresses in the transaction list or not.</source>
-        <translation>Mostrar ou não endereços Klondikecoin na lista de transações.</translation>
+        <source>Whether to show Silverspotcoin addresses in the transaction list or not.</source>
+        <translation>Mostrar ou não endereços Silverspotcoin na lista de transações.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -995,8 +995,8 @@ Endereço: %4</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Klondikecoin.</source>
-        <translation>Esta configuração surtirá efeito após reinicializar o aplicativo Klondikecoin</translation>
+        <source>This setting will take effect after restarting Silverspotcoin.</source>
+        <translation>Esta configuração surtirá efeito após reinicializar o aplicativo Silverspotcoin</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1014,8 +1014,8 @@ Endereço: %4</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Klondikecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. Sua carteira sincroniza automaticamente com a rede Klondikecoin depois que a conexão é estabelecida, mas este processo pode não estar completo ainda.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Silverspotcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. Sua carteira sincroniza automaticamente com a rede Silverspotcoin depois que a conexão é estabelecida, mas este processo pode não estar completo ainda.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1068,8 +1068,8 @@ Endereço: %4</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start klondikecoin: click-to-pay handler</source>
-        <translation>Não foi possível iniciar klondikecoin: manipulador clique-para-pagar</translation>
+        <source>Cannot start silverspotcoin: click-to-pay handler</source>
+        <translation>Não foi possível iniciar silverspotcoin: manipulador clique-para-pagar</translation>
     </message>
 </context>
 <context>
@@ -1218,8 +1218,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Klondikecoin-Qt help message to get a list with possible Klondikecoin command-line options.</source>
-        <translation>Mostrar mensagem de ajuda do Klondikecoin-Qt para obter uma lista com possíveis opções da linha de comando do Klondikecoin.</translation>
+        <source>Show the Silverspotcoin-Qt help message to get a list with possible Silverspotcoin command-line options.</source>
+        <translation>Mostrar mensagem de ajuda do Silverspotcoin-Qt para obter uma lista com possíveis opções da linha de comando do Silverspotcoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1238,13 +1238,13 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Klondikecoin - Debug window</source>
-        <translation>Klondikecoin - Janela de Depuração</translation>
+        <source>Silverspotcoin - Debug window</source>
+        <translation>Silverspotcoin - Janela de Depuração</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Klondikecoin Core</source>
-        <translation>Núcleo Klondikecoin</translation>
+        <source>Silverspotcoin Core</source>
+        <translation>Núcleo Silverspotcoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1253,8 +1253,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Klondikecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abrir o arquivo de log de depuração do Klondikecoin do diretório atual de dados. Isso pode levar alguns segundos para arquivos de log grandes.</translation>
+        <source>Open the Silverspotcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir o arquivo de log de depuração do Silverspotcoin do diretório atual de dados. Isso pode levar alguns segundos para arquivos de log grandes.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1263,8 +1263,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Klondikecoin RPC console.</source>
-        <translation>Bem-vindo ao console Klondikecoin RPC.</translation>
+        <source>Welcome to the Silverspotcoin RPC console.</source>
+        <translation>Bem-vindo ao console Silverspotcoin RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1384,7 +1384,7 @@ Endereço: %4</translation>
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Erro: A transação foi rejeitada. Isso pode acontecer se alguns dos klondikecoins de sua carteira já haviam sido gastos, por exemplo se você usou uma cópia do arquivo wallet.dat e alguns klondikecoins foram gastos na cópia mas não foram marcados como gastos aqui.</translation>
+        <translation>Erro: A transação foi rejeitada. Isso pode acontecer se alguns dos silverspotcoins de sua carteira já haviam sido gastos, por exemplo se você usou uma cópia do arquivo wallet.dat e alguns silverspotcoins foram gastos na cópia mas não foram marcados como gastos aqui.</translation>
     </message>
 </context>
 <context>
@@ -1447,8 +1447,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Klondikecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Digite um endereço Klondikecoin (exemplo: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Silverspotcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Digite um endereço Silverspotcoin (exemplo: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1512,8 +1512,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Klondikecoin address</source>
-        <translation>Assinar mensagem para provar que você é dono deste endereço Klondikecoin</translation>
+        <source>Sign the message to prove you own this Silverspotcoin address</source>
+        <translation>Assinar mensagem para provar que você é dono deste endereço Silverspotcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1548,8 +1548,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Klondikecoin address</source>
-        <translation>Verificar mensagem para se assegurar que ela foi assinada pelo dono de um endereço Klondikecoin específico.</translation>
+        <source>Verify the message to ensure it was signed with the specified Silverspotcoin address</source>
+        <translation>Verificar mensagem para se assegurar que ela foi assinada pelo dono de um endereço Silverspotcoin específico.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1564,8 +1564,8 @@ Endereço: %4</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Klondikecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Digite um endereço Klondikecoin (exemplo: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Silverspotcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Digite um endereço Silverspotcoin (exemplo: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1574,8 +1574,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Klondikecoin signature</source>
-        <translation>Entre com a assinatura Klondikecoin</translation>
+        <source>Enter Silverspotcoin signature</source>
+        <translation>Entre com a assinatura Silverspotcoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1648,8 +1648,8 @@ Endereço: %4</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Klondikecoin developers</source>
-        <translation>Desenvolvedores do Klondikecoin</translation>
+        <source>The Silverspotcoin developers</source>
+        <translation>Desenvolvedores do Silverspotcoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1783,7 +1783,7 @@ Endereço: %4</translation>
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Klondikecoins gerados precisam maturar por 120 blocos antes de serem gastos. Quando você gera este bloco, ele é difundido na rede para ser adicionado ao blockchain. Se ele falhar ao ser acrescentado no blockchain, seu estado mudará para &quot;não aceito&quot; e não poderá ser gasto. Isso pode ocasionamente acontecer se outro nó gerou um bloco poucos segundos antes do seu.</translation>
+        <translation>Silverspotcoins gerados precisam maturar por 120 blocos antes de serem gastos. Quando você gera este bloco, ele é difundido na rede para ser adicionado ao blockchain. Se ele falhar ao ser acrescentado no blockchain, seu estado mudará para &quot;não aceito&quot; e não poderá ser gasto. Isso pode ocasionamente acontecer se outro nó gerou um bloco poucos segundos antes do seu.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2186,8 +2186,8 @@ Endereço: %4</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Klondikecoin version</source>
-        <translation>Versão do Klondikecoin</translation>
+        <source>Silverspotcoin version</source>
+        <translation>Versão do Silverspotcoin</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2196,8 +2196,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or klondikecoind</source>
-        <translation>Enviar comando para -server ou klondikecoind</translation>
+        <source>Send command to -server or silverspotcoind</source>
+        <translation>Enviar comando para -server ou silverspotcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2216,13 +2216,13 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: klondikecoin.conf)</source>
-        <translation>Especifique um arquivo de configurações (padrão: klondikecoin.conf)</translation>
+        <source>Specify configuration file (default: silverspotcoin.conf)</source>
+        <translation>Especifique um arquivo de configurações (padrão: silverspotcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: klondikecoind.pid)</source>
-        <translation>Especifique um arquivo de pid (padrão: klondikecoind.pid)</translation>
+        <source>Specify pid file (default: silverspotcoind.pid)</source>
+        <translation>Especifique um arquivo de pid (padrão: silverspotcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2299,24 +2299,24 @@ Endereço: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=klondikecoinrpc
+rpcuser=silverspotcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Klondikecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Silverspotcoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, você deve especificar uma senha rpcpassword no arquivo de configuração:⏎
 %s⏎
 É recomendado que você use a seguinte senha aleatória:⏎
-rpcuser=klondikecoinrpc⏎
+rpcuser=silverspotcoinrpc⏎
 rpcpassword=%s⏎
 (você não precisa lembrar esta senha)⏎
 O nome de usuário e a senha NÃO PODEM ser os mesmos.⏎
 Se o arquivo não existir, crie um com permissão de leitura apenas para o dono.⏎
 É recomendado também definir um alertnotify para que você seja notificado de problemas;⏎
-por exemplo: alertnotify=echo %%s | mail -s &quot;Klondikecoin Alert&quot; admin@foo.com⏎
+por exemplo: alertnotify=echo %%s | mail -s &quot;Silverspotcoin Alert&quot; admin@foo.com⏎
 </translation>
     </message>
     <message>
@@ -2331,13 +2331,13 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Klondikecoin Alert&quot; admin
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Klondikecoin is probably already running.</source>
-        <translation>Não foi possível obter exclusividade de escrita no endereço %s. O Klondikecoin provavelmente já está rodando.</translation>
+        <source>Cannot obtain a lock on data directory %s. Silverspotcoin is probably already running.</source>
+        <translation>Não foi possível obter exclusividade de escrita no endereço %s. O Silverspotcoin provavelmente já está rodando.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Erro: A transação foi rejeitada. Isso pode acontecer se alguns dos klondikecoins de sua carteira já haviam sido gastos, por exemplo se você usou uma cópia do arquivo wallet.dat e alguns klondikecoins foram gastos na cópia mas não foram marcados como gastos aqui.</translation>
+        <translation>Erro: A transação foi rejeitada. Isso pode acontecer se alguns dos silverspotcoins de sua carteira já haviam sido gastos, por exemplo se você usou uma cópia do arquivo wallet.dat e alguns silverspotcoins foram gastos na cópia mas não foram marcados como gastos aqui.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2376,8 +2376,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Klondikecoin Alert&quot; admin
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Klondikecoin will not work properly.</source>
-        <translation>Cuidado: Por favor, verifique que a data e hora do seu computador estão corretas! If o seu relógio estiver errado, o Klondikecoin não irá funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Silverspotcoin will not work properly.</source>
+        <translation>Cuidado: Por favor, verifique que a data e hora do seu computador estão corretas! If o seu relógio estiver errado, o Silverspotcoin não irá funcionar corretamente.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2626,8 +2626,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Klondikecoin Alert&quot; admin
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Klondikecoin Wiki for SSL setup instructions)</source>
-        <translation>Opções SSL: (veja a Wiki do Klondikecoin para instruções de configuração SSL)</translation>
+        <source>SSL options: (see the Silverspotcoin Wiki for SSL setup instructions)</source>
+        <translation>Opções SSL: (veja a Wiki do Silverspotcoin para instruções de configuração SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2816,13 +2816,13 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Klondikecoin Alert&quot; admin
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Klondikecoin</source>
-        <translation>Erro ao carregar wallet.dat: Carteira requer uma versão mais nova do Klondikecoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Silverspotcoin</source>
+        <translation>Erro ao carregar wallet.dat: Carteira requer uma versão mais nova do Silverspotcoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Klondikecoin to complete</source>
-        <translation>A Carteira precisou ser reescrita: reinicie o Klondikecoin para completar</translation>
+        <source>Wallet needed to be rewritten: restart Silverspotcoin to complete</source>
+        <translation>A Carteira precisou ser reescrita: reinicie o Silverspotcoin para completar</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2881,8 +2881,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Klondikecoin Alert&quot; admin
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Klondikecoin is probably already running.</source>
-        <translation>Impossível vincular a %s neste computador. O Klondikecoin provavelmente já está rodando.</translation>
+        <source>Unable to bind to %s on this computer. Silverspotcoin is probably already running.</source>
+        <translation>Impossível vincular a %s neste computador. O Silverspotcoin provavelmente já está rodando.</translation>
     </message>
     <message>
         <location line="+64"/>

@@ -1,11 +1,11 @@
 ![Kloindike](http://i.imgur.com/19dc1hf.png)
 
-# Klondike Coin [KDC]
-http://ewww.klondikecoin.com
-Copyright (c) 2014 Klondikecoin Developers
+# Klondike Coin [SSP]
+http://ewww.silverspotcoin.com
+Copyright (c) 2014 Silverspotcoin Developers
 
 
-What is Klondikecoin?
+What is Silverspotcoin?
 ----------------
 
 Klondike Coin is a peer-to-peer Internet currency that enables instant payments to anyone in the world. It is based on the Bitcoin protocol but differs from Bitcoin in that it can be efficiently mined with consumer-grade hardware. Klondike Coin provides faster transaction confirmations (1 minute on average) and uses a memory-hard, scrypt-based mining proof-of-work algorithm created by the Litecoin Developers to target the regular computers and GPUs most people already have. The Klondike Coin network is scheduled to produce just under 20 million coins.
@@ -23,19 +23,19 @@ Block Interval:
 
 Current Block Reward:
 
-16 KDC
+16 SSP
 
-Currently 16 KDC is rewarded to miners per block minted. The block reward will become smaller over time at specified blocks.
+Currently 16 SSP is rewarded to miners per block minted. The block reward will become smaller over time at specified blocks.
 
 Block to halve at #         Reward after halving
-Start                       77 KDC
-84576                       16 KDC
-127776                      8 KDC
-170976                      4 KDC
-2273376                     2 KDC
-3324576                     1 KDC
-4901376                     0.5 KDC
-5522934                     0 KDC
+Start                       77 SSP
+84576                       16 SSP
+127776                      8 SSP
+170976                      4 SSP
+2273376                     2 SSP
+3324576                     1 SSP
+4901376                     0.5 SSP
+5522934                     0 SSP
 
 Difficulty Re-target :
 
@@ -43,7 +43,7 @@ Difficulty Re-target :
 
 Total supply of Klondike Coins: 
 
-19,948,654 KDC - The amount of coins that will be in circulation once mining has been completed.
+19,948,654 SSP - The amount of coins that will be in circulation once mining has been completed.
 
 License
 -------
@@ -51,7 +51,7 @@ License
 Khlondike is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
-KDC Development Process
+SSP Development Process
 -------------------
 
 Developers work in their own trees, then submit pull requests when they think
