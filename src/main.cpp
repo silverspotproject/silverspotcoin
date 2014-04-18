@@ -32,7 +32,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x6b607422155e23fabcfb438430c3d39c612015b10a3901024a0d84d083d67e96");
+uint256 hashGenesisBlock("0x2f09be689027abebc807769bbb349e7df75c1291335b84d1e9debdba06c0329d");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Silverspotcoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -1064,7 +1064,7 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
 
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
-    int64 nSubsidy = 0.75 * COIN;
+    int64 nSubsidy = 200000 * COIN;
 
     // Subsidy is cut in half every 2628000 blocks, which will occur approximately every 5 years
     nSubsidy >>= (nHeight / 50000); // 
@@ -2843,7 +2843,7 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "Sunny day in Paradise";
+        const char* pszTimestamp = "Sunny day in London";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2855,14 +2855,14 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1397291706;
+        block.nTime    = 1397839300;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 2087140393;
+        block.nNonce   = 2087161869;
 
         if (fTestNet)
         {
-            block.nTime    = 1397291706;
-            block.nNonce   = 385270584;
+            block.nTime    = 1397839300;
+            block.nNonce   = 2087161869;
         }
 
         //// debug print
@@ -2870,7 +2870,7 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0x3f17240c1ed3d2607f15a82097aa797e180989f0409e136c554bb8a5920488ea"));
+        assert(block.hashMerkleRoot == uint256("0xf77efa4645d8cccbb3c8c68bde28cf8ddbc5a722ccdb0dce5c8ce313aff30dd3"));
                       // If genesis block hash does not match, then generate new genesis hash.
 
                 if (false && block.GetHash() != hashGenesisBlock)
